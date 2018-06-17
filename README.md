@@ -9,7 +9,7 @@ It generates text file that have information of below.
 * "The most popular article authors of all time"
 * "Days did more than 1% of requests lead to errors"
 
-[Generated text file(sample)]('report.txt')
+[Generated text file(sample)](report.txt)
 
 ## Requirement
 * Python 3
