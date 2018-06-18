@@ -14,8 +14,8 @@ It generates text file that have information of below.
 ## Requirement
 * Python 3
 * PostgreSQL
-* [Vagrant](You can download it from vagrantup.com)
-* [VirtualBox](You can download it from virtualbox.org, here)  
+* [Vagrant](https://www.vagrantup.com/downloads.html)
+* [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)  
 (Recommended to install 5.1, Newer versions are not yet compatible with Vagrant.)
 * [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)  
 (newsdata.zip is required to put in `logs_analysis/` directory)
@@ -25,7 +25,7 @@ It generates text file that have information of below.
 2. In the command line, switch to `logs_analysis/` directory.
 3. Run: `python logsanalysis.py`, then it starts up.
 4. Select from options with numbers, and input number.
-<img src='input_screen.png'>
+< img src='input_screen.png'>
 
 ## License
 This project is licensed under the MIT License.
