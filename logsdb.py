@@ -100,7 +100,8 @@ def get_error_days():
         results_on_each_dates[date].append(count)
     with open('report.txt', 'w') as f:
         for d in results_on_each_dates:
-            count_sum = results_on_each_dates[d][0] + results_on_each_dates[d][1]
+            count_sum = results_on_each_dates[d][0]\
+                        + results_on_each_dates[d][1]
             error_rate = float(results_on_each_dates[d][1]) / count_sum
             if error_rate >= 0.01:
                 f.write(d.strftime('%b,%Y') + ' -- ' + str(

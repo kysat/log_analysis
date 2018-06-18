@@ -4,6 +4,9 @@ from logsdb import create_view, get_most_popular_article, \
     get_most_popular_article_author, \
     get_error_days
 
+# First, create view for running get functions below.
+create_view()
+
 print("What do you want to know?")
 line = '-' * 30
 print(line)
