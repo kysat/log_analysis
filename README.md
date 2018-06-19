@@ -28,8 +28,8 @@ It generates text file that have information of below.
 < img src='input_screen.png'>
 
 ## About `view`
-This program has `create view` statement.
-When the program run, first it creates `view` in the database.
+This program has `create view` statement.  
+When the program runs, first it creates `view` in the database.
 
 ## License
 This project is licensed under the MIT License.
