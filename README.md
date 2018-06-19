@@ -27,5 +27,9 @@ It generates text file that have information of below.
 4. Select from options with numbers, and input number.
 < img src='input_screen.png'>
 
+## About `view`
+This program has `create view` statement.
+When the program run, first it creates `view` in the database.
+
 ## License
 This project is licensed under the MIT License.
